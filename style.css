@@ -67,7 +67,7 @@
 
 
 /* ==========================================================
-                 
+                 Featured-section css starts
  ============================================================*/
  .Featured-section{
     width: 100%;
@@ -141,3 +141,36 @@
     margin-bottom: 50px;
     color: gray;
 }
+/* ==========================================================
+                 Featured-section css end
+ ============================================================*/
+
+ /* ==========================================================
+                 flower details section css starts
+ ============================================================*/
+.flower-supports{
+    width: 100%;
+}
+.support{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin:100px auto;
+    padding:60px 0px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+.support  img{
+    width: 80px;
+}
+
+.support h4{
+    color: gray;
+}
+
+
+ /* ==========================================================
+                 flower details section css ends
+ ============================================================*/
