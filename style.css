@@ -221,12 +221,14 @@
     width: 100%;
     margin-bottom: 100px;
  }
- .Instagram-sections h1 , p{
+ .Instagram-sections h1  {
     text-align: center;
     margin-bottom: 20px;
  }
  .Instagram-sections   p{
     color: gray;
+    text-align: center;
+    margin-bottom: 20px;
  }
  .instagram-photo{
     width: 80%;
@@ -270,6 +272,8 @@
 }
 .subscribe-content> p{
     color: gray;
+    text-align: center;
+    margin-bottom: 30px;
 }
 form input[type=text]{
     padding: 20px 400px 20px 14px;
@@ -288,8 +292,26 @@ form input[type=text]{
  ===============================================================*/
  footer{
     width: 100%;
-    /* background-color: black; */
-
+    background-color: black;
+    text-align: center;
+    padding: 100px 0;
+ }
+ footer> h1{
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+ }
+ footer p{
+    font-size: 15px;
+    color: white;
+ }
+ .copyright-text{
+    color:rgba(255, 255, 255, 0.63) ;
+    margin-top: 30px;
+    font-weight: 300;
+ }
+ span{
+    color: #e55473;
  }
   /* ============================================================
                  footer section css starts
