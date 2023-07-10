@@ -87,21 +87,51 @@
     margin-top: 10px;
     font-size: 16px;
 }
-.flower{
+.flower1{
     width: 320px;
     height: 350px;
-    background-color: #e55473;
+    background-color: #f1dde7;
     padding:20px;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     border-radius: 200px 200px 0 0;
-    
 }
-.flower img{
+.flower2{
+    width: 320px;
+    height: 350px;
+    background-color: #cee3e4;
+    padding:20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 200px 200px 0 0;
+}
+.flower3{
+    width: 320px;
+    height: 350px;
+    background-color: #e3ebdb;
+    padding:20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 200px 200px 0 0;
+}
+
+.rose{
+    width: 220px;
+    margin-bottom: -50px;
+    padding: 30px;  
+}
+.belly-flower{
+    width: 250px;
+    /* margin-bottom: -50px; */
+    padding: 30px;
+}
+.yellow-rose{
     width: 220px;
     margin-bottom: -50px;
     padding: 30px;
-
 }
 .Featured-title{
     text-align: center;
