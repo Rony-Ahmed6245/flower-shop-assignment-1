@@ -165,12 +165,132 @@
 .support  img{
     width: 80px;
 }
-
 .support h4{
     color: gray;
 }
 
-
  /* ==========================================================
                  flower details section css ends
  ============================================================*/
+
+
+
+ /* ==========================================================
+                 discount section css starts
+ ============================================================*/
+ .discount-section{
+    width: 100%;
+    background-color: #fdf6f8;
+    padding: 100px 0;
+    margin: 100px 0;
+ }
+ .discount-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .discount-text{
+    text-align: center;
+    width: 500px;
+ }
+ .discount-text>  h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+ }
+ .discount-text>  p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: gray;
+ }
+
+  .discount-content img{
+    width: 250px;
+ }
+  /* ==========================================================
+                 discount section css end
+ ============================================================*/
+
+
+  /* ==========================================================
+                 instagram section css starts
+ ==============================================================*/
+ .Instagram-sections{
+    width: 100%;
+    margin-bottom: 100px;
+ }
+ .Instagram-sections h1 , p{
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ .Instagram-sections   p{
+    color: gray;
+ }
+ .instagram-photo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .instagram-photo img{
+    width: 270px;
+ }
+   /* ==========================================================
+                 instagram section css end
+ ===============================================================*/
+
+
+   /* ==========================================================
+                 Subscribe section css starts
+ ===============================================================*/
+.subscribe-section{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.subscribe-banner{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background-image: url("Flower-Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.subscribe-content> h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.subscribe-content> p{
+    color: gray;
+}
+form input[type=text]{
+    padding: 20px 400px 20px 14px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+/* =============================================================
+                 Subscribe section css end
+ ===============================================================*/
+
+
+
+ /* ============================================================
+                 footer section css starts
+ ===============================================================*/
+ footer{
+    width: 100%;
+    /* background-color: black; */
+
+ }
+  /* ============================================================
+                 footer section css starts
+ ===============================================================*/
