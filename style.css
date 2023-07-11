@@ -1,16 +1,11 @@
-
 /*============================================================
                       Universal css 
  =============================================================*/
-
 *{
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-
-
-
 /* ==========================================================
                               primary css 
  ============================================================*/
@@ -32,8 +27,6 @@
 span{
     color: #e55473;
  }
-
-
 /* ==========================================================
                       bonus section css starts
  ============================================================*/
@@ -46,7 +39,6 @@ header{
     padding: 15px 0;
     /* box-shadow: 5px 5px 50px rgb(247, 247, 247); */
 }
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -60,7 +52,6 @@ nav ul{
     align-items: center;
     gap: 20px;
 }
-
 nav ul li {
     list-style: none;
 }
@@ -98,8 +89,7 @@ nav ul li a{
 }
 .banner-img img{
     width: 500px;
-    margin-bottom: -5px;
-    
+    margin-bottom: -5px; 
 }
 .banner-title{
     font-size: 60px;
@@ -168,7 +158,6 @@ nav ul li a{
     justify-content: center;
     border-radius: 200px 200px 0 0;
 }
-
 .rose{
     width: 220px;
     margin-bottom: -50px;
@@ -227,7 +216,6 @@ nav ul li a{
  /* ==========================================================
                  flower details section css ends
  ============================================================*/
-
 
 
  /* ==========================================================
@@ -315,7 +303,6 @@ nav ul li a{
     width: 100%;
     margin-bottom: 100px;
 }
-
 .subscribe-banner{
     width: 80%;
     height: 350px;
@@ -350,7 +337,6 @@ form input[type=text]{
  ===============================================================*/
 
 
-
  /* ============================================================
                  footer section css starts
  ===============================================================*/
@@ -375,7 +361,6 @@ form input[type=text]{
     font-weight: 300;
     font-size:16px ;
  }
-
   /* ============================================================
-                 footer section css starts
+                 footer section css end
  ===============================================================*/
