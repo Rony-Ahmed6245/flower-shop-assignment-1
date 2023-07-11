@@ -12,6 +12,46 @@
 
 
 
+header{
+    width: 100%;
+    background-color: #ffdee5;
+    border-bottom: 1px solid #feaec9;
+    position: sticky;
+    top: 0;
+    padding: 15px 0;
+    /* box-shadow: 5px 5px 50px rgb(247, 247, 247); */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+    font-weight: 400;
+}
+.logo h1{
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
 /* ==========================================================
                               primary css 
  ============================================================*/
@@ -56,6 +96,7 @@
 .banner-title{
     font-size: 60px;
     margin-bottom: 10px;
+    color: #272727;
 }
 .banner-description{
     color: gray;
