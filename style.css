@@ -6,16 +6,41 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: system-ui, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 
 
+/* ==========================================================
+                              primary css 
+ ============================================================*/
+.primary-btn{
+    padding: 15px 35px;
+    border: 1px solid #e55473 ;
+    outline: none;
+    color: white;
+    background-color: #e55473;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size:16px;
+}
+.primary-btn:hover{
+    background-color: white;
+    color: #e55473;
+    transition: .5s;
+}
+span{
+    color: #e55473;
+ }
 
+
+/* ==========================================================
+                      bonus section css starts
+ ============================================================*/
 header{
     width: 100%;
     background-color: #ffdee5;
-    border-bottom: 1px solid #feaec9;
+    border-bottom: 1px solid #fcbcd2;
     position: sticky;
     top: 0;
     padding: 15px 0;
@@ -50,27 +75,9 @@ nav ul li a{
     font-size: 40px;
     cursor: pointer;
 }
-
-
 /* ==========================================================
-                              primary css 
+                      bonus section css end
  ============================================================*/
-.primary-btn{
-    padding: 15px 35px;
-    border: 1px solid #e55473 ;
-    outline: none;
-    color: white;
-    background-color: #e55473;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size:16px;
-}
-.primary-btn:hover{
-    background-color: white;
-    color: #e55473;
-    transition: .5s;
-}
-
 
 
 /* ==========================================================
@@ -78,8 +85,8 @@ nav ul li a{
  ============================================================*/
 .flower-banner-section{
     width: 100%;
-    background-color:#fceef1 ;
-    
+    background-color:#fceef1;  
+    padding-top: 10px;
 }
 .banner{
     display: flex;
@@ -99,8 +106,9 @@ nav ul li a{
     color: #272727;
 }
 .banner-description{
-    color: gray;
+    color: #272727;
     margin-bottom: 15px;
+    font-size: 18px;
 }
 /* ==========================================================
                  flower-banner-section css ends
@@ -126,7 +134,8 @@ nav ul li a{
     text-align: center;
     text-decoration: underline;
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 24px;
+    color: #272727;
 }
 .flower1{
     width: 320px;
@@ -166,7 +175,6 @@ nav ul li a{
 }
 .belly-flower{
     width: 250px;
-    /* margin-bottom: -50px; */
     padding: 30px;
 }
 .yellow-rose{
@@ -176,11 +184,14 @@ nav ul li a{
 }
 .Featured-title{
     text-align: center;
+    font-size: 40px;
+    margin-bottom: 24px;
 }
 .flower-description{
     text-align: center;
     margin-bottom: 50px;
-    color: gray;
+    color: #272727;
+    font-size: 18px;
 }
 /* ==========================================================
                  Featured-section css end
@@ -207,7 +218,9 @@ nav ul li a{
     width: 80px;
 }
 .support h4{
-    color: gray;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 500;
 }
 
  /* ==========================================================
@@ -235,20 +248,20 @@ nav ul li a{
 
  .discount-text{
     text-align: center;
-    width: 500px;
+    width: 600px;
  }
  .discount-text>  h1{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
  }
  .discount-text>  p{
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: 20px;
     color: gray;
  }
 
   .discount-content img{
-    width: 250px;
+    width: 300px;
  }
   /* ==========================================================
                  discount section css end
@@ -265,11 +278,14 @@ nav ul li a{
  .Instagram-sections h1  {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 800;
  }
  .Instagram-sections   p{
     color: gray;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 18px;
  }
  .instagram-photo{
     width: 80%;
@@ -280,6 +296,11 @@ nav ul li a{
  }
  .instagram-photo img{
     width: 270px;
+ }
+ .instagram-photo img:hover{
+    /* width: 265px; */
+    transition: .5s;
+    border-radius: 40px;
  }
    /* ==========================================================
                  instagram section css end
@@ -333,27 +354,26 @@ form input[type=text]{
  ===============================================================*/
  footer{
     width: 100%;
-    background-color: black;
+    background-color: #111010;
     text-align: center;
     padding: 100px 0;
  }
  footer> h1{
-    font-size: 36px;
+    font-size: 48px;
     color: white;
     margin-bottom: 20px;
  }
  footer p{
-    font-size: 15px;
+    font-size: 18px;
     color: white;
  }
  .copyright-text{
     color:rgba(255, 255, 255, 0.63) ;
     margin-top: 30px;
     font-weight: 300;
+    font-size:16px ;
  }
- span{
-    color: #e55473;
- }
+
   /* ============================================================
                  footer section css starts
  ===============================================================*/
